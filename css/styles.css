@@ -1,0 +1,283 @@
+
+/* ----------------------INDEX-HTML----------------- */
+
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --second-logo-color: #000000;
+    --main-background-color: #FFFFFF;
+    --second-background-color: #2F303A;
+    --active-btn-color: #188CE8;
+    --address-text-color: rgba(255, 255, 255, 0.6);
+    --btn-background-color: #F5F4FA;
+    --bg-portfolio-list-item: #EEEEEE;
+}
+
+body {
+    font-family: "Roboto","sans-serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background: var(--main-background-color);
+    color: var(--second-text-color);
+}
+.nav-list,
+.contact-list,
+.btn-list,
+.portfolio-list,
+.address-list,
+.our-command-list,
+.which-do-list,
+.benefits-list
+{
+    list-style: none;
+}
+
+/* -------------------Header------------------ */
+.logo {
+
+text-decoration: none;
+font-family: 'Raleway',"sans-serif";
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+    
+color: var(--accent-color);
+}
+
+.logo>span {
+color: var(--second-logo-color);
+}
+
+.nav-list.item,
+.contact-list.item {
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    
+color: var(--main-text-color);
+}
+.contact-list.item {
+    color: var(--second-text-color);}
+
+.nav-list.item:hover,
+.contact-list.item:hover,
+.nav-list.item:focus,
+.contact-list.item:focus,
+.nav-list.item.current
+{ 
+color: var(--accent-color)
+}
+
+/* -------------------Hero------------------ */
+
+
+.hero {
+    background: var(--second-background-color);
+}
+.hero-title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+ 
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--main-background-color);
+
+}
+
+.order-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    
+    background: var(--accent-color);
+    color: var(--main-background-color);
+    cursor: pointer;
+}
+.order-btn:hover,
+.order-btn:focus {
+    background: var(--active-btn-color);
+}
+
+/* -------------------Benefits------------------ */
+/* ---Візуально приховую заголовок--- */
+.benefits-title {
+    
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+.benefits-list.title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color:var(--main-text-color)
+}
+
+.benefits-list.text {
+  ;
+}
+/* -------------------which-do------------------ */
+.which-do-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
+}
+
+/* -------------------our-command------------------ */
+
+.our-command{
+    background: var(--btn-background-color);
+}
+
+
+.our-command-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
+}
+ .our-command-list.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
+ }
+.our-command-text {
+    font-size: 16px;
+    line-height: 1.19;
+     
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--second-text-color);
+}
+/* -------------------Foter------------------ */
+footer {
+    background: var(--second-background-color);
+}
+
+footer .part-logo {
+    color: var(--main-background-color);
+}
+.address-list.adress,
+.address-list.mail,
+.address-list.tel {
+
+    font-style: normal;
+    text-decoration: none;
+       
+    color: var(--main-background-color);
+}
+ .address-list.adress:hover, 
+ .address-list.mail:hover,
+ .address-list.tel:hover,
+ .address-list.adress:focus,
+ .address-list.mail:focus,
+ .address-list.tel:focus
+ {
+    color: var(--accent-color);
+ }
+
+.address-list.mail,
+.address-list.tel {
+    
+color: var(--address-text-color);
+}
+
+/* ----------------------PORTFOLIO-HTML----------------- */
+/* ----------------------Portfolio----------------- */
+/* ---Роблю заголовок візуально схованим--- */
+
+}
+
+
+.portfolio-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
+    background: var(--btn-background-color);
+    cursor: pointer;
+    border: none;
+}
+.btn-list.btn.current,
+.btn-list.btn:hover,
+.btn-list.btn:focus,
+.btn-list.btn:active {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--main-background-color);
+    background: var(--accent-color);
+}
+.portfolio-list.title {
+    font-size: 18px;
+    line-height: 2;
+        
+    letter-spacing: 0.06em;
+    
+    color: var(--main-text-color);
+   }
+
+   .portfolio-list.text {
+    font-size: 16px;
+    line-height: 1.875;
+       
+    letter-spacing: 0.03em;
+    
+    color: var(--second-text-color);
+   }
