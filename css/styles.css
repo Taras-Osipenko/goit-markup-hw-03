@@ -35,7 +35,14 @@ body {
     list-style: none;
 }
 
+.conteiner {
+    width: 1200px;
+    padding: 0 15px;
+}
+
 /* -------------------Header------------------ */
+.conteiner
+
 .logo {
 
 text-decoration: none;
@@ -222,7 +229,7 @@ color: var(--address-text-color);
 /* ----------------------Portfolio----------------- */
 /* ---Роблю заголовок візуально схованим--- */
 
-}
+
 
 
 .portfolio-title {
