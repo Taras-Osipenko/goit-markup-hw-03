@@ -44,7 +44,7 @@ body {
 }
 .conteiner.header {
     align-items: center;
-    height: 80px;
+   
 }
 
 .nav-list,
@@ -129,6 +129,7 @@ color: var(--accent-color)
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
+    margin-top: 0;
 
     font-weight: 900;
     font-size: 44px;
