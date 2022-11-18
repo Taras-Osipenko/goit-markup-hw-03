@@ -226,7 +226,9 @@ margin-left: 30px;
 .which-do.conteiner {
     display: flex;
     width: 1200px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
 }
 
 .which-do-title {
@@ -266,8 +268,8 @@ margin-left: 30px;
     width: 1600px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 94px;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .our-command-list.conteiner.title {
@@ -284,12 +286,20 @@ margin-left: 30px;
     padding-right: 15px;
 }
 .our-command-list .item {
+
     width: 270px;
     background: var(--main-background-color) ;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
 
+    
+}
+.our-command-cards {
+margin-top: 30px;
+}
+.our-command-list img {
+    display: block;
+}
 
 .our-command{
     background: var(--btn-background-color);
@@ -297,8 +307,9 @@ margin-left: 30px;
 
 
 .our-command-title {
-
+    
     height: 42px;
+    margin-top: 0;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
@@ -311,6 +322,14 @@ margin-left: 30px;
     color: var(--main-text-color);
 }
  .our-command-list.title {
+
+    /* justify-content: center; */
+    /* display: inline; */
+    /* margin-left: 0;
+    margin-right: 0; */
+    
+
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -330,13 +349,28 @@ margin-left: 30px;
     
     color: var(--second-text-color);
 }
-/* -------------------Foter------------------ */
+/* -------------------Footer------------------ */
+.conteiner-footer {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+}
+.conteiner-footer>a {
+margin-bottom: 20px;
+}
+
+
+
+
+
 footer {
     background: var(--second-background-color);
 }
 
 footer .part-logo {
     color: var(--main-background-color);
+    margin-bottom: 20px;
 }
 .address-list.adress,
 .address-list.mail,
