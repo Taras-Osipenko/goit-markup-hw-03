@@ -36,15 +36,19 @@ body {
     padding: 0 0;
 }
 
-/* .conteiner {
+.conteiner {
     width: 1200px;
-    padding: 0 15px;
-    display: flex; */
+    padding-left:  15px;
+    padding-right: 15px;
+    display: flex;
+    margin: 0 auto;
+
+}
 
 
 img {
   max-width: 100%;
-  /* height: auto;  */
+  height: auto; 
   display: block;
 }
  
@@ -53,18 +57,18 @@ h1,h2,h3,h4,h5,h6,p { margin: 0 0; }
 /* -------------------Header------------------ */
 
  .header {
-    display: flex;
-    padding: 0 15px;
-    width: 1200px;
-    align-items: center;
-    margin: 0 auto;
-
-     border: 1px solid #ECECEC;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    border: 1px solid #ECECEC;
      border-top: none;
      border-left: none;
      border-right: none;
 
  }
+.header .conteiner {
+align-items: center;
+}
 
 
 .nav-list,
@@ -85,7 +89,7 @@ margin-right: 50px;
 margin-right: 50px;
 }
 
-.conteiner-logo {
+.header .logo {
 margin-left: 0;
 margin-right: 92px;
 }
@@ -133,17 +137,16 @@ color: var(--accent-color)
 /* -------------------Hero------------------ */
 
 .hero {
-    display: block;
-    margin: 0 auto;
-    padding: 200px 15px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
 
     background: var(--second-background-color);
 
    }
    .hero>.conteiner {
-    margin: 0 auto;
-    width: 1170px;
+    display: block;
+   
    }
 .hero-title {
     
@@ -210,11 +213,14 @@ color: var(--accent-color)
 /* ----------------------------------- */
 
 .benefits {
-    padding: 0 15px;
-    margin: 94px auto;
-    }
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-
+.benefits .conteiner {
+    display: block;
+}
+    
 .benefits-list .title {
     font-size: 14px;
     line-height: 1.14;
@@ -245,11 +251,14 @@ margin-left: 30px;
 /* -------------------which-do------------------ */
 
 .which-do {
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1200px;
-    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 94px;
+   
 }
+.which-do .conteiner {
+    display: block;
+}
+
 
 .which-do-title {
    
@@ -279,13 +288,14 @@ margin-left: 30px;
 
 /* -------------------our-command------------------ */
 .our-command {
-    padding: 94px 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background: var(--btn-background-color);
-    margin: 0 auto;
+    
 }
 .our-command .conteiner {
-    width: 1170px;
-    margin: 0 auto;
+    display: block;
+ 
 }
 
 .our-command-list {
@@ -352,19 +362,18 @@ margin-left: 30px;
 }
 /* -------------------Footer------------------ */
 footer {
-    display: block;
-    padding: 60px 15px;
-    margin: 0 auto;
-
+   padding-top: 60px;
+   padding-bottom: 60px;
+    
     background: var(--second-background-color);
 
 }
 footer .conteiner {
-    width: 1170px;
-   margin: 0 auto;
+  display: block;
 }
 
-.address-list {
+footer .address-list,
+footer .logo {
 margin-right: auto;
 }
 .address-list .item + .item {
@@ -376,27 +385,32 @@ footer .part-logo {
     color: var(--main-background-color);
    
 }
-.address-list.adress,
-.address-list.mail,
-.address-list.tel {
+
+footer address {
+    margin-top: 20px;
+}
+
+.address-list .adress,
+.address-list .mail,
+.address-list .tel {
 
     font-style: normal;
     text-decoration: none;
        
     color: var(--main-background-color);
 }
- .address-list.adress:hover, 
- .address-list.mail:hover,
- .address-list.tel:hover,
- .address-list.adress:focus,
- .address-list.mail:focus,
- .address-list.tel:focus
+ .address-list .adress:hover, 
+ .address-list .mail:hover,
+ .address-list .tel:hover,
+ .address-list .adress:focus,
+ .address-list .mail:focus,
+ .address-list .tel:focus
  {
     color: var(--accent-color);
  }
 
-.address-list.mail,
-.address-list.tel {
+.address-list .mail,
+.address-list .tel {
     
 color: var(--address-text-color);
 }
@@ -421,13 +435,14 @@ color: var(--address-text-color);
 }
 /* /'------------------------------------' */
 .portfolio {
-    padding: 0 15px;
-    margin: 94px auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
 }
 
 .portfolio .conteiner {
-    width: 1170px;
-    margin: 0 auto;
+    display: block;
+   
 }
 
 
